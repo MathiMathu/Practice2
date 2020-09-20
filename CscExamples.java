@@ -33,5 +33,21 @@ public class CscExamples
  {
    text=c;
  }
+public void addQuestion(CscExamples qu)
+ {
+   setQuestionNo(qu.getQuestionNo());
+   setText(qu.getText());
+   setCategory(qu.getCategory());
+ }
+
+ public void removeQuestion(int quId)
+ {
+
+ }
+
+ public void editQuestion(int quId)
+ {
+
+ }
 
 }
